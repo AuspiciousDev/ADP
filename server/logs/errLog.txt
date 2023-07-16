@@ -1,0 +1,2 @@
+20230108	08:14:41	071fb414-a62f-4070-b631-a4826e80b2ae	SyntaxError: Unexpected token } in JSON at position 115
+20230109	14:40:46	49c7e25c-9635-41ce-a7e1-e71d3e7d4c44	Error: Not allowed by CORS

@@ -1,0 +1,133 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.container-main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.container-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4em;
+  width: 100%;
+  height: 80%;
+}
+.container-column {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-layout_body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.container-layout_body_contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+.box_flex_column_centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MODAL SMALL FORM */
+.modal-small-form {
+  align-self: center;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 2;
+}
+.modal-small-form > .header {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+.modal-small-form > .content {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 25px;
+}
+.modal-small-form > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal-small-form > .close {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.RegistrationPrint::-webkit-scrollbar {
+  display: none;
+}
